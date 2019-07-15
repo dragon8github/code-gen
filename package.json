@@ -1,0 +1,22 @@
+{
+  "name": "gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gen.js",
+  "bin": {
+    "taro-gen": "modules/taro/gen.js",
+    "vue-gen": "modules/vue/gen.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "fs-extra": "^8.1.0",
+    "mkdirp": "^0.5.1",
+    "mkdirp-promise": "^5.0.1"
+  }
+}
